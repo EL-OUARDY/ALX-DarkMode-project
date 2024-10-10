@@ -168,9 +168,10 @@ body.dark .logo {
   filter: invert(1) hue-rotate(180deg);
 }
 
-body.dark .navbar-header {
+body.dark .header {
   background-color: var(--col-bg-400) !important;
   filter: drop-shadow(0 0 5px var(--col-bg-500));
+  border-color: var(--col-bg-800) !important;
 }
 
 body.dark .navbar {
